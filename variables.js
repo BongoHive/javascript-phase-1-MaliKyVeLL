@@ -2,11 +2,11 @@
 var y = 1990;
 var f = 2050;
 var  age = f - y;
-console.log(age)
+console.log(age);
 
 //solution 2
 var age = 28;
 var maxAge = 100;
 var estAmountPayDay = 10;
 var totalRestlife = (maxAge - age) * 365 * estAmountPayDay;
-console.log(totalRestlife)
+console.log('You will need' + totalRestlife + 'to last you until the ripe old age of' + maxAge );
